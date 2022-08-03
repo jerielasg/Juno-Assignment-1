@@ -1,0 +1,114 @@
+header {
+    background-image: url("../shutter/shutter-assets/asset-1.jpg");
+    background-color: white;
+    height: 800px;
+    max-height: 90%;
+
+
+.headwrapper {
+        max-width: 1280px;
+        height: 800px;
+        width: 90%;
+        margin: 0 auto;
+        top: 0px;
+        
+        .logo {
+            position: relative;
+            top: 20px;
+        }
+
+        .headnavbar {
+            float: right;
+            position: relative;
+            margin: 0;
+            padding: 0;
+
+
+            a, a:hover, a:focus, a:active {
+                text-decoration: none;
+                color: inherit;
+            }
+
+            li {
+                margin: 0;
+                padding: 10px;
+                list-style: none;
+                display: inline;
+                letter-spacing: 5px;
+
+                
+            }
+          
+
+        }
+
+        .socialmediaicon {
+
+            float: right;
+            position: relative;
+            top: 100px;
+            left: 500px;
+            padding: 0;
+            margin: 0;
+
+
+            a, a:hover, a:focus, a:active {
+                text-decoration: none;
+                color: inherit;
+            }
+                       
+            li {
+                list-style: none;
+            }
+
+            .fa {
+                padding: 20px;
+                font-size: 20px;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+                margin: 5px 2px;
+            }
+        
+            .fa:hover {
+                opacity: 0.7;
+            }
+        
+            .fa-facebook {
+                color: white;
+            }
+    
+            .fa-instagram {
+                color: white;
+            }
+    
+            .fa-linkedin {
+                color: white;
+            }
+    
+            .fa-twitter {
+                color: white;
+            }
+        }
+
+        .headerwelcome {
+            text-align: center;
+            position: relative;
+            top: 600px;
+            width: 50%;
+            margin: auto;
+            padding: 0;
+           
+            h2 {
+                margin: 0;
+                padding: 0;
+            }
+            
+            h6 {
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+    
+}

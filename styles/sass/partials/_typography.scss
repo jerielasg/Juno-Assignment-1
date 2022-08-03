@@ -1,0 +1,53 @@
+/* import PlayFair font */
+
+@font-face {
+    font-family: "PlayfairDisplay";
+    src: url(../fonts/playfair-display-v30-latin/playfair-display-v30-latin-regular.woff),
+    url(../fonts/playfair-display-v30-latin/playfair-display-v30-latin-regular.ttf),
+    url(../fonts/playfair-display-v30-latin/playfair-display-v30-latin-regular.woff2);
+    font-weight: normal;
+}
+
+/* import Lato font */
+@font-face {
+    font-family: "Lato";
+    src: url(../fonts/lato-v23-latin/lato-v23-latin-regular.woff),
+    url(../fonts/lato-v23-latin/lato-v23-latin-regular.ttf),
+    url(../fonts/lato-v23-latin/lato-v23-latin-regular.woff2);
+    font-weight: normal;
+}
+
+
+.headnavbar {
+   
+    li {
+        color: $white;
+        font-family: $secondaryFont;
+    }
+}
+
+h1 {
+    font-size: 2.33rem;
+    color: $white;
+ }
+
+h2 {
+    font-size: 1rem;
+    font-family: $secondaryFont;
+    color: $white;
+    text-transform: uppercase;
+    
+}
+
+h6 {
+    font-family: $primaryFont;
+    text-transform: none;
+    font-size: 80px;
+    color: $white;
+}
+
+
+p {
+    font-family: $secondaryFont;
+    @include fontSize(18px);
+}
