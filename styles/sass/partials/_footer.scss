@@ -1,3 +1,31 @@
 footer {
     background-color: $blackshade;
+    ul {
+            list-style: none;
+        }
+    a, a:hover, a:focus, a:active {
+        text-decoration: none;
+        color: inherit;
+    }
+  
+    padding: 10px;
+
+    .contact .footernav {
+        width: 20%;
+    }
+
+    .subscribefooter {
+        width: 60%;
+    }
+
+
+
+    .footerflexcontainer:after {
+        content: "";
+        display: table;
+        clear: both
+
+    }
 }
+
+

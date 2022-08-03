@@ -1,6 +1,8 @@
 header {
     background-image: url("../shutter/shutter-assets/asset-1.jpg");
     background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 800px;
     max-height: 90%;
 
@@ -95,7 +97,7 @@ header {
             text-align: center;
             position: relative;
             top: 600px;
-            width: 50%;
+            width: 30%;
             margin: auto;
             padding: 0;
            

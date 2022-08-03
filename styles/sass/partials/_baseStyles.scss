@@ -1,0 +1,152 @@
+.wrapper {
+    max-width: 1280px;
+    width: 90%;
+    margin: 0 auto;
+
+
+}
+
+button {
+    padding: 8px 20px 8px;
+    margin: 0;
+
+}
+
+.about {
+    background-color: $palegrey;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: auto;
+    
+    .wrapper {
+        margin: auto;
+        h3 {
+            width: 90%;
+            text-align: center;
+            
+        }
+        p {
+            width: 90%;
+            text-align: center;
+        }
+        button {
+            align-items: center;
+            margin-left: 40%;
+        }
+    }
+  
+}
+
+.gallery {
+    padding-top: 100px;
+ padding-bottom: 100px;
+    ul {
+      
+        li {
+            display: inline;
+            list-style: none;
+                    img {
+                        width: 30%;
+                        height: auto;
+                        padding-left: 5%;
+                                           
+                    }
+        }
+    }
+
+}
+
+.midnav {
+    background-image: url("../shutter/shutter-assets/asset-5.jpg");
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    ul {
+        list-style: none;
+        
+            li {
+                display: inline;
+                width: 25%;
+                float: right;
+                a,
+                    a:hover,
+                    a:focus,
+                    a:active {
+                        text-decoration: none;
+                        color: inherit;
+                    }
+                
+            }
+    }
+}
+
+.blog {
+    padding-top: 100px;
+    padding-bottom: 800px;
+    .aboutshort {
+        padding-bottom: 10px;
+        img {
+                float: left;
+                height: auto;
+                width: 25%;
+            }
+        .aboutshorttext {
+            float: right;
+            padding-left: 25px;
+            
+        }
+    }
+
+    .blog1 {
+        
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        padding-top: 50px;
+            padding-bottom: 50px;
+        .blog1text {
+            
+            width:50%;
+            background-color: $palegrey;
+            margin: 0 auto;
+        }
+        .blog1imgcontainer{
+            width:50%;
+        
+            img {
+                
+                max-width: 100%;
+                display:block;
+            }
+        }
+    }
+
+
+    .blog2 {
+
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        .blog2text {
+
+            width: 50%;
+            background-color: $palegrey;
+            margin: 0 auto;
+        }
+
+        .blog2imgcontainer {
+            width: 50%;
+
+            img {
+
+                max-width: 100%;
+                display: block;
+            }
+        }
+    }
+}

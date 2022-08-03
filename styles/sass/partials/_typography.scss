@@ -18,6 +18,10 @@
 }
 
 
+
+html {
+    font-size: 125%;
+}
 .headnavbar {
    
     li {
@@ -39,6 +43,10 @@ h2 {
     
 }
 
+h4 {
+    font-family: $primaryFont;
+    font-size: 1.3rem;
+}
 h6 {
     font-family: $primaryFont;
     text-transform: none;
@@ -46,8 +54,52 @@ h6 {
     color: $white;
 }
 
+h5 {
+    font-family: $secondaryFont;
+    font-size: 28px;
+    color: $palegrey;
+    text-transform: uppercase;
+}
 
 p {
     font-family: $secondaryFont;
-    @include fontSize(18px);
+    font-size: 14px;
+}
+
+
+
+footer {
+    p {
+            font-family: $secondaryFont;
+            color: $grey;
+        }
+    .contact {
+        text-transform: uppercase;
+       
+    }    
+    .footernav {
+        a {
+            color: $white;
+            text-transform: uppercase;
+            font-family: $secondaryFont;
+            font-size: 12px;
+        }
+}
+}
+
+button {
+    font-family: $secondaryFont;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.midnav {
+    .midnavtext {
+        
+        color: $white;
+        font-family: $primaryFont;
+        font-size: 28px;
+        font-weight: bold;
+    }
 }

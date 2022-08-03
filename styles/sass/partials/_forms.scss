@@ -1,0 +1,33 @@
+#aboutbutton {
+    background-color: $accent;
+    border: none;
+}
+
+
+
+#readmore1 {
+    background-color: $accent;
+    border: none;
+}
+
+
+#readmore2 {
+    background-color: $accent;
+    border: none;
+}
+
+footer {
+    input[type=submit] {
+        background-color: $accent;
+        border: none;
+        font-family: $secondaryFont;
+        color: $black;
+        text-transform: uppercase;
+        padding: 10px 30px 10px;
+    }
+    input [type=text] {
+        height: 10px;
+        color: $grey;
+        border: none;
+    }
+}
